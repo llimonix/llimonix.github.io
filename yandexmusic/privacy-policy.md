@@ -52,7 +52,7 @@ Your continued use of this service and/or bot after we make changes is deemed to
 
 ### Discord Bots Applications
 The following is a list of Discord Bots Applications to which this privacy policy applies.
-* **YandexMusic#1576 `(1171294403072118854)`
+* **YandexMusic**#1576 `(1171294403072118854)`
 
 <hr>
 
