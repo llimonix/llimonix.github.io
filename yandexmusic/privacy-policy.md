@@ -1,6 +1,6 @@
 <h3>YandexMusic Discord Bot | YandexMusic#1576 <code>(1171294403072118854)</code></h3>
 <sup>Discord Bots Privacy Policy</sup> <br /> <br />
-<sup>Last Revised: 01.12.2023/sup>
+<sup>Last Revised: 01.12.2023</sup>
 
 ___
 # PRIVACY POLICY
