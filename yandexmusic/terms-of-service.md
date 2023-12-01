@@ -35,6 +35,6 @@ We still require a comprehensible explanation of the situation and never guarant
 <br>
 <hr>
 <p align="center">
-  This Privacy Policy Was Last Updated: 
+  This Terms of Service Was Last Updated: 
   <b>01.12.2023</b>.
 </p>
