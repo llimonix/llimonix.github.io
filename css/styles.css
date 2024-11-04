@@ -67,6 +67,9 @@ body {
 	height: 220px;
 	border-radius: 1000px;
 	margin: 0;
+    user-select: none;
+    pointer-events: none;
+    -webkit-user-drag: none;
 }
 
 .social-links-rectangle {
