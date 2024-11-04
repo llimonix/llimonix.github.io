@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    overflow: hidden;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    position: relative;
+}
+
+.background-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: auto;
+    height: auto;
+    overflow: hidden;
+    z-index: -1;
+	transform: translate(-50%, -50%) scale(1.1);
+    filter: blur(15px);
+}
+
+.background-video video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    flex-direction: column;
+    transition: transform 0.5s ease-in-out;
+}
+
+.rectangle {
+    width: 320px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #242424;
+    overflow: hidden;
+    position: relative;
+    border-radius: 20px;
+    z-index: 1;
+	margin: 10px;
+}
+
+.avatar {
+	width: 220px;
+	height: 220px;
+	border-radius: 1000px;
+	margin: 0;
+}
+
+.social-links-rectangle {
+    display: flex;
+    gap: -10px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    gap: 20px;
+}
+
+.content {
+    position: relative;
+    z-index: 1;
+}
+
+.nickname {
+    color: white;
+    font-size: 24px;
+    font-family: "Roboto", sans-serif;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-links a {
+    margin: 0 7px;
+}
+
+.social-links img {
+    width: 32px;
+    height: 32px;
+	transition: filter 0.2s ease-in-out;
+    border-radius: 1000px;
+}
+
+.social-links img:hover {
+  filter: blur(2px);
+}
+
+.content-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-thread {
+    width: 320px;
+    height: 50px;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #242424;
+    border-radius: 20px;
+}

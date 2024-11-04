@@ -1,26 +1,56 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>llimonix</title>
-<link rel="stylesheet" href="styles.css">
+    <meta property="og:title" content="llimonix">
+    <meta property="og:description" content="Website business card llimonix">
+    <meta property="og:image" content="https://avatars.githubusercontent.com/u/65571116?v=4">
+    <link rel="icon" type="image/ico" href="media/icon.ico">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>llimonix</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-<canvas id="particleCanvas"></canvas>
-<div class="card">
-    <div class="card-image">
-        <img src="photo.jpg" alt="Profile Picture">
+    <div class="background-video">
+        <video autoplay loop muted>
+        </video>
     </div>
-    <div class="card-content">
-        <h2 class="card-title">llimonix</h2>
-        <p class="card-text">Python Developer</p>
-		<div class="card-b">
-			<a href="https://t.me/llimonix" class="card-button telegram">TELEGRAM</a>
-			<a href="https://zelenka.guru/llimonix" class="card-button lolzteam">LOLZTEAM</a>
-			<a href="https://github.com/llimonix" class="card-button github">GITHUB</a>
+    <div class="container">
+		<div class="content-wrapper">
+			<div class="left-content">
+				<div class="rectangle">
+					<div class="content">
+						<a>
+							<img class='avatar' src="media/avatar.jpg" alt='Avatar'>
+						</a>
+						<h1 class="nickname">llimonix</h1>
+						<div class="social-links social-links-rectangle">
+							<a href="https://github.com/llimonix" target="_blank">
+								<img src="icons/github.svg" alt="Github">
+							</a>
+							<a href="https://llimonix.t.me/" target="_blank">
+								<img src="icons/telegram.svg" alt="Telegram">
+							</a>
+							<a href="https://lolz.live/llimonix/" target="_blank">
+								<img src="icons/lolzteam.svg" alt="Lolz">
+							</a>
+							<a href="https://steamcommunity.com/id/llimonix/" target="_blank">
+								<img src="icons/steam.svg" alt="Steam">
+							</a>
+							<a href="https://discordapp.com/users/348420809389506562/" target="_blank">
+								<img src="icons/discord.svg" alt="Discord">
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="button-thread">
+					<span>
+						Генератор WARP для AmneziaWG
+					</span>
+				</div>
+			</div>
 		</div>
 	</div>
-<script src="script.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
